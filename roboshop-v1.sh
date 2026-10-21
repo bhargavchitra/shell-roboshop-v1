@@ -19,5 +19,3 @@ do
     )
 
     echo "$instance instance ID: $instance_id"
-
-    
