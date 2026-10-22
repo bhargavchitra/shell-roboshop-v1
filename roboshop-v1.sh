@@ -18,3 +18,4 @@ do
             --output text
     )
     echo "$instance instance ID: $instance_id"
+    
