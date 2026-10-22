@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ami_id="ami-0055977a6e828a4f4"
+ami_id="i-0c23bcc5478b533ea"
 instance_type="t3.micro"
 domain_name="daws-92s.online"
 hosted_zone_id="Z00819983G48HSY89USCO"
@@ -17,5 +17,5 @@ do
             --query 'Instances[0].InstanceId' \
             --output text
     )
+
     echo "$instance instance ID: $instance_id"
-    
